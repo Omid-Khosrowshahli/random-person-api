@@ -1,0 +1,60 @@
+.container {
+  margin: auto;
+  margin-top: 50px;
+  width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.image {
+  height: 250px;
+  width: inherit;
+}
+
+img {
+  width: inherit;
+  height: inherit;
+}
+
+.info-list {
+  padding: 0 15px;
+  border-top:1px solid #ddd;
+  border-bottom:1px solid #ddd;
+  font-size: small;
+}
+
+.btn-holder {
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(249, 249, 249);
+}
+
+#person-generator-btn {
+  color: rgb(207, 209, 56);
+  background-color: inherit;
+  border: 1px solid rgb(207, 209, 56);
+  border-radius: 3px;
+  font-size: small;
+  padding: 7px 10px;
+  cursor: pointer;
+}
+
+#person-generator-btn:active {
+  background-color: rgb(235, 235, 235);
+}
+
+i {
+  color: rgb(22, 171, 221);
+  padding-right: 8px;
+}
+
+.info {
+  color: white;
+  background-color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: medium;
+  font-weight: bold;
+  padding: 3px;
+}
